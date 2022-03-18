@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+import java.util.Collections;
 
 public class Playlist{
 
@@ -135,5 +136,7 @@ public class Playlist{
         return temp.length > 1;
     }
 
-
+    public void sort(){
+        this.playlist.sort(Track::compareTo);
+    }
 }

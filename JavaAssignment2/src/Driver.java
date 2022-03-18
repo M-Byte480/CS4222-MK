@@ -31,9 +31,9 @@ public class Driver {
         myFavouriteSongs.add( "To the Bone", "JT Music", 2020, 15509 );
 
 
-
+        myFavouriteSongs.sort();
 //        System.out.println(myFavouriteSongs);
-
+        System.out.println(myFavouriteSongs);
 //        System.out.println(myFavouriteSongs.remove("test"));
 //        myFavouriteSongs.playOnly("lil");
 //        System.out.println(myFavouriteSongs);

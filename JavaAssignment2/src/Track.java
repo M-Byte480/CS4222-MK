@@ -1,4 +1,3 @@
-import java.util.Locale;
 
 public class Track implements Comparable<Track> {
     // Instance variables
@@ -69,6 +68,4 @@ public class Track implements Comparable<Track> {
     public int compareTo(Track other) {
         return this.title.compareTo(other.title);
     }
-
-
 }
